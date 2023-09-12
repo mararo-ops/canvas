@@ -1,13 +1,46 @@
 header {
   background-color: rgb(219, 218, 218);
+  float: center;
+}
+body {
+  background-image:url('/home/daniel/Downloads/download.jpeg') ;
 }
 font {
   font-size: x-large;
   font-style: italic;
   font-weight: 200;
 }
-img{
-  width: 240px
-  border-radius 10px
-  float:left
+*{ background-image:url('/home/daniel/Downloads/download.jpeg');
+background-color: rgb(206, 142, 59);
+}
+img {
+  width: 600px;
+  border-radius: 10px;
+}
+#intergrated { 
+  width: 240px;
+  border-radius: 10px;
+  width: 25%;
+}
+#papa {
+  border-radius: 10px;
+  width: 25%;
+}
+#choma {
+  border-radius: 10px;
+  width: 25%;
+}
+ol {
+  float: inline-start;
+}
+#form {
+  align-content: center;
+}
+#fries { 
+  width: 25%;
+  border-radius: 10px;
+}
+#pizza {
+  width: 25%;
+  border-radius: 10px;
 }
